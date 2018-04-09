@@ -26,9 +26,9 @@ Playing as a girl will change the storyline and is recommended for experienced p
 
 [[continue]]:
 @clear
-A soft breeze {if gender=male:hits my neck.}{else:makes my hair wave around.}
+A soft breeze {if gender=male:hits my neck. It actually feels fairly pleasent, as it's quite warm.}{else:makes my hair wave around. It actually feels fairly pleasent, as it's quite warm}
 The green leaves of the trees move around slowly, rustling softly.
-It's late summer, which means that school just started again.
+It's late summer, which means that school (sadly) just started again.
 
 [[Continue]](to school)
 
@@ -36,17 +36,18 @@ It's late summer, which means that school just started again.
 I slowly make my way to my new school, which lays about two kilometers from the nearby bus stop.
 
 Ah, I should introduce myself. My name's {if gender=male:Milo.}{else:Nicky}. I'm 16 years old and study physics. Boring, I know, but my parents are forcing me to.
+that,ofcourse makes them sound like rather bad parents, but they can also be really nice when they want to be. Ufortunatly, that's not as oftend as i'd like it to be.
 
-I sigh as I see my school appear at the horizon. Leafwood High-school. The name is as bland as the building itself. Although it's quite modern, the white walls make it look boring.
+I sigh as I see my school appear at the horizon. Leafwood High-school. The name is as bland as the building itself. Although it's quite modern, the white walls make it look boring. The thought that the lessons themself are even worse, makes me sigh deeply.
 
 I stop at a crosswalk. The light is red.
 
 [[Cross anyways]] [[Wait]]
 
 [[Cross anyways]]:
-I quickly look left and right, before crossing the road.
+I quickly look left and right. No cars are anywhere near. I quickly cross.
 
-I soon arrive at the gates. Students are walking in from all directions.
+I soon arrive at the gates. Students are walking in from all directions. There are quite a few faces i recognize from last year. mainly assholes though.
 
 [[Walk through the gates]]
 
@@ -74,7 +75,35 @@ I take out my phone and turn on the screen, only to see a text send by my mom.
 "Have fun at school!"
 
 Have fun...at school... Right.
-Like that's even possible.
+
+sounds legit. Thanks mom...
+
+[[reply]] or [[don't]]
+
+[[reply]]
+
+[[reply]]
+
+[[cheesy reply]] [[annoyed reply]] [[sarcastic reply]]
+
+[[cheesy reply]]
+
+thank's mom. you have fun at work! :)
+
+[[annoyed reply]]
+
+could you not uselesly message me for once?
+
+*she imidiatly messages back*
+
+"someone's not slept properly last night".
+
+I think by myself: typical mom.....
+
+[[sarcastic reply]]
+
+can you for once not give me impossible tasks?
+
 I take out my [[timetable]] to see where I have to go.
 
 [[Ignore it]]:
