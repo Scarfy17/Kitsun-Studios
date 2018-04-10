@@ -26,7 +26,7 @@ Playing as a girl will change the storyline and is recommended for experienced p
 
 [[continue]]:
 @clear
-A soft breeze {if gender=male:hits my neck.}{else:makes my hair wave around.}
+A soft breeze {if gender=male:hits my neck. It actually feels fairly pleasent, as it's quite warm.}{else:makes my hair wave around. It actually feels fairly pleasent, as it's quite warm}
 The green leaves of the trees move around slowly, rustling softly.
 It's late summer, which means that school just started again.
 
@@ -36,18 +36,18 @@ It's late summer, which means that school just started again.
 I slowly make my way to my new school, which lays about two kilometers from the nearby bus stop.
 
 Ah, I should introduce myself. My name's {if gender=male:Milo.}{else:Nicky}. I'm 16 years old and study physics. Boring, I know, but my parents are forcing me to.
+That, ofcourse, makes them sound like rather bad parents, but they can also be really nice when they want to be. Unfortunatly, that's not as often as I'd like it to be.
 
-I sigh as I see my school appear at the horizon. Leafwood High-school. The name is as bland as the building itself. Although it's quite modern, the white walls make it look boring.
+I see my school appear at the horizon. Leafwood High-school. The name is as bland as the building itself. Although it's quite modern, the white walls make it look boring. The thought that the lessons themselves are even worse, makes me sigh deeply.
 
 I stop at a crosswalk. The light is red.
 
 [[Cross anyways]] [[Wait]]
 
 [[Cross anyways]]:
-I quickly look left and right, before crossing the road.
+I quickly look left and right. No cars are anywhere near. I quickly cross.
 
 I soon arrive at the gates. Students are walking in from all directions.
-
 [[Walk through the gates]]
 
 [[Wait]]:
@@ -74,8 +74,38 @@ I take out my phone and turn on the screen, only to see a text send by my mom.
 "Have fun at school!"
 
 Have fun...at school... Right.
-Like that's even possible.
+
+Thanks mom...
+
+[Reply] [[Don't reply]]
+
+[Reply]:
+[[Cheesy reply]] [[Annoyed reply]] [[Sarcastic reply]]
+
+[[Cheesy reply]]:
+"Thank's mom. you have fun at work! :)"
+She doesn't reply afterwards.
 I take out my [[timetable]] to see where I have to go.
+
+[[Annoyed reply]]:
+"Could you not message me for once?"
+
+She immidiatly messages back.
+
+"Someone hasn't slept properly last night."
+
+Typically mom. I can even imagine her saying that.
+I take out my [[timetable]] to see where I have to go.
+
+[[Sarcastic reply]]:
+"Can you for once not give me impossible tasks?" I reply, trying to be a bit funny and tell her to stop randomly messaging me at the same time.
+
+She doesn't send anything back.
+"Well that worked" I mumble softly.
+I take out my [[timetable]] to see where I have to go.
+
+[[Don't reply]]
+I decide just to let mom be and take out my [[timetable]] to see where I have to go.
 
 [[Ignore it]]:
 I decide to ignore the notification for now.
