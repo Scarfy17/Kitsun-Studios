@@ -1,0 +1,218 @@
+# airashi-game
+@title Testing
+######Testing
+---
+##Main Menu
+[[New game]](return)
+[[Scene Selection]]
+
+[[Scene Selection]]:
+[[Start]](return)
+[[First day]](Walk through the gates)
+[[Meeting Silence]](Go to dorm)
+
+[[return]]:
+Do you wish to play as a [[guy]](guy, gender=male) or [[girl]](girl, gender=female)?
+
+[[guy]]:
+This is the way the game is meant to be played, and recommended for new players. Do you want to 
+
+[[continue]] or [[return]]?
+
+[[girl]]:
+Playing as a girl will change the storyline and is recommended for experienced players. Are you sure you want to continue?
+
+[[continue]] [[return]]
+
+[[continue]]:
+@clear
+A soft breeze {if gender=male:hits my neck.}{else:makes my hair wave around.}
+The green leaves of the trees move around slowly, rustling softly.
+It's late summer, which means that school just started again.
+
+[[Continue]](to school)
+
+[[to school]]:
+I slowly make my way to my new school, which lays about two kilometers from the nearby bus stop.
+
+Ah, I should introduce myself. My name's {if gender=male:Milo.}{else:Nicky}. I'm 16 years old and study physics. Boring, I know, but my parents are forcing me to.
+
+I sigh as I see my school appear at the horizon. Leafwood High-school. The name is as bland as the building itself. Although it's quite modern, the white walls make it look boring.
+
+I stop at a crosswalk. The light is red.
+
+[[Cross anyways]] [[Wait]]
+
+[[Cross anyways]]:
+I quickly look left and right, before crossing the road.
+
+I soon arrive at the gates. Students are walking in from all directions.
+
+[[Walk through the gates]]
+
+[[Wait]]:
+I wait at the crosswalk for half a minute, only for no cars to show up anyways. As the light finally turns green, I cross the road and continue walking to school.
+
+I soon arrive at the gates. Students are walking in from all directions.
+
+[[Walk through the gates]]
+
+[[Walk through the gates]]:
+@clear
+@set score = 50
+I walk though the gates, looking around at the environment. I'm walking over a path that leads to the school's main entrance, with another path leading to the dormitory where I'll be staying.
+
+Around the path are small groups of students talking to eachother. I'm honestly not really a social person. I usually spend my time alone, playing games or whatever. My parents thought that making me sleep in a dorm would make me able to concentrate more on school. But they didn't check my bag before I left the house this morning, so I was able to smuggle all sorts of stuff with me, like my laptop.
+
+As I near the main entrance, I feel my phone buzz in my pocket.
+
+[[Read the notification]] [[Ignore it]]
+
+[[Read the notification]]:
+I take out my phone and turn on the screen, only to see a text send by my mom.
+
+"Have fun at school!"
+
+Have fun...at school... Right.
+Like that's even possible.
+I take out my [[timetable]] to see where I have to go.
+
+[[Ignore it]]:
+I decide to ignore the notification for now.
+I take out my [[timetable]] to see where I have to go.
+
+[[timetable]]:
+<table style="border-collapse:collapse;border-spacing:0"><tr><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;vertical-align:top">[[C103]]</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;vertical-align:top">[A003](wrongclass)</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;vertical-align:top">[C014](wrongclass)<br></td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;vertical-align:top">[B105](wrongclass)<br></td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;vertical-align:top">[A105](wrongclass)<br></td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;vertical-align:top">[C103](wrongclass)</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;vertical-align:top">[C011](wrongclass)</td></tr><tr><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;vertical-align:top">[C014](wrongclass)</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;vertical-align:top">[C011](wrongclass)</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;vertical-align:top">[A015](wrongclass)</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;vertical-align:top">[B105](wrongclass)</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;vertical-align:top">[C015](wrongclass)</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;vertical-align:top">[C011](wrongclass)</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;vertical-align:top">[B105](wrongclass)</td></tr><tr><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;vertical-align:top">[A003](wrongclass)</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;vertical-align:top">[A018](wrongclass)</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;vertical-align:top">[C118](wrongclass)</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;vertical-align:top">[C011](wrongclass)</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;vertical-align:top">[C103](wrongclass)</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;vertical-align:top">[A003](wrongclass)</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;vertical-align:top">[A015](wrongclass)</td></tr><tr><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;vertical-align:top">[C105](wrongclass)</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;vertical-align:top">[E002](wrongclass)</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;vertical-align:top">[E002](wrongclass)</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;vertical-align:top">[C114](wrongclass)</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;vertical-align:top">[C015](wrongclass)</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;vertical-align:top">[A015](wrongclass)<br></td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;vertical-align:top">[C103](wrongclass)</td></tr><tr><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;vertical-align:top">[A015](wrongclass)</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;vertical-align:top">[C011](wrongclass)</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;vertical-align:top">[A003](wrongclass)</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;vertical-align:top">[B105](wrongclass)</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;vertical-align:top">[C110](wrongclass)</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;vertical-align:top">[C011](wrongclass)</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;vertical-align:top">[A015](wrongclass)</td></tr></table>
+
+[wrongclass]:
+That isn't my first period.
+
+[[C103]]:
+C103 seems to be my first class.
+I slowly make my way to the classroom while looking around, memorizing my way back here.
+After some time, I arrive at C103.
+[[Enter the classroom]]
+
+
+
+[[Enter the classroom]]:
+@clear
+I slowly make my way inside, looking around a bit.
+It's a dull classroom. Only a few students are already sitting in small groups, talking to eachother.
+After a few minutes class starts. Apperantly it's history class. Like I wasn't tired enough already.
+I slowly feel like dozing off...
+[[Sleep a bit]] [[Stay awake]]
+
+[[Sleep a bit]]:
+I rest my head on my arms and close my eyes. Slowly but surely, I doze off...
+
+"{if gender=male:Milo,}{else:Nicky,} which God stole fire from the Gods and gave it to the humans?"
+I jump up as I hear the question. The entire class is looking at me.
+"E-ehm..."
+[[Icarus]]
+[[Prometheus]]
+[[Atlas]]
+
+[[Icarus]]:
+@dec score 10
+"I-Icarus?" I say hesitating.
+"Prometheus, {if gender=male:Milo,}{else:Nicky,} it's Prometheus..." the teacher says.
+The entire class starts chuckling a bit. I can feel myself blushing.
+After that, the rest of the day goes by normally.
+
+The bell finally rings during the last period. I quickly grab my bag and walk outside.
+[[Go to dorm]]
+
+[[Prometheus]]:
+@inc score 10
+"P-Prometheus?" I say hesitating.
+"Prometheus, correct, {if gender=male:Milo."}{else:Nicky."}
+I sigh in relief.
+After that, the rest of the day goes by normally.
+
+The bell finally rings during the last period. I quickly grab my bag and walk outside.
+[[Go to dorm]]
+
+[[Atlas]]:
+@dec score 10
+"A-Atlas??" I say hesitating.
+"Prometheus, {if gender=male:Milo,}{else:Nicky,} it's Prometheus..." the teacher says.
+The entire class starts chuckling a bit. I can feel myself blushing.
+After that, the rest of the day goes by normally.
+
+The bell finally rings during the last period. I quickly grab my bag and walk outside.
+[[Go to dorm]]
+
+[[Stay awake]]:
+I decide that sleeping during first class isn't apropriate.
+The rest of the day goes by normally.
+The bell finally rings during the last period. I quickly grab my bag and walk outside.
+[[Go to dorm]]
+
+[[Go to dorm]]:
+I make my way to the dormitory.
+As I enter the quite modern building, I take out a letter I got during history class, which has my dorm number on it. Room 575. I like that number. Once I finally reach that stage, I enter my room. My bags have already been left on my bed. For some reason, the room is set up for two people. Weird, I made sure I selected 'single room' on the registration form. Exhausted, I sit down on my bed. Should I [[sleep]] or [[stay awake]]?
+
+[[sleep]]:
+@clear
+I take off my shoes and lay down on my bed. I stare at the ceiling, before slowly falling asleep...
+After some time, I feel something pointy poking my face.
+As I open my eyes, I can see a small girl poking my face with an envelope.
+I quickly sit up, looking at her.
+She's about 1m50, or 4"9, has long black hair that covers both her eyes, but is shorter on the left side, showing her mouth and nose. I can see her left eye slightly, but her right eye is completly covered by her hair.
+"H-hello?" I say to her, only to recieve a blank stare back. She keeps holding out the letter.
+[[Take the letter]]
+
+[[Take the letter]]:
+I slowly take the envelope from her and notice the school's logo on it. As I take out the letter inside, the mysterious girl walks to the other bed, and sits down on it. [Read it] [[Unfold the letter]]
+[Read it]:
+I should unfold the letter first.
+[[Unfold the letter]]:
+@clear
+I unfold the letter and read it.
+## Leafwood High
+###### To: {if gender=male:Milo}{else:Nicky} Ross
+---
+Following the survey you've entered when registering for our school, where you checked you would take care of a student with special needs, you've been assigned a roommate. The roommate is your responsibility.
+
+*The letter then goes on about unimportant stuff, aswel as the list of rules*
+
+Weird, I don't remember entering a survey...
+I look up at the strange girl, who's playing on a handheld.
+
+[[*What's your name?*]] [[Ignore her]](Let her be)
+
+[[stay awake]]:
+Even though I still feel sleepy, I decide to stay awake.
+
+After some time, I hear a few knocks on my door.
+I slowly get up and [open the door].
+
+[open the door]:
+I open the door and look down at the small girl that's staring at me. She's about 1m50, or 4"9, has long black hair that covers both her eyes, but is shorter on the left side, showing her mouth and nose. I can see her left eye slightly, but her right eye is completly covered by her hair.
+"H-hello?" I say to her, only to recieve a blank stare back.
+
+She holds up an envelope to me.
+
+[[Take the letter]]
+
+[[*What's your name?*]]:
+"What's your name?" I ask, only to be ignored by her. She seems to only be intrested in her game, whatever she might be playing. I notice that she's wearing a pair of long black silk gloves.
+
+[[Try getting her attention]] [[Just keep talking to her]] [[Let her be]]
+
+[[Try getting her attention]]:
+I grab my pillow and throw it at her.
+She looks up for a moment, but remains silent.
+[[*Fun game?*]] [[Let her be]]
+
+[[*Fun game?*]]:
+"Fun game?" I ask.
+She gives a short nod and continues to play.
+"Do you want something to drink?"
+
+She shakes her head.
+[[Thank her for responding]] [[Don't do anything]]
+
+[[Thank her for responding]]:
+
