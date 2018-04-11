@@ -8,3 +8,4 @@ Documentation on Squiffy can be found here: http://docs.textadventures.co.uk/squ
 Documentation on HTML5 can be found here: https://www.w3schools.com/html/default.asp
 
 Don't touch the "Game Export" folder, unless you wish to test the game.
+Testing
